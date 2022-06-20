@@ -1,15 +1,14 @@
-import Head from 'next/head'
-
+import Head from 'next/head';
+import Header from '../components/Header';
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Thread Affair</title>
-
+        <title>Thead Affair</title>
       </Head>
 
-      <header className="header">Hello</header>
+      <Header></Header>
 
       <main className="content"></main>
 
