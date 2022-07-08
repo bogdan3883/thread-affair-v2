@@ -3,4 +3,12 @@
 
 .footer {
   margin-top: 24px;
+
+  p a:nth-of-type(2) {
+    color: $brand-primary;
+  }
+}
+
+span {
+  font-weight: 300;
 }

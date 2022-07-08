@@ -152,7 +152,7 @@ export default function Footer() {
           </nav>
           <section className="footer-contact">
             <h1>
-              <span>Thread Affair</span> Milano
+              Thread Affair <span>Milano</span>
             </h1>
 
             <p>
@@ -161,7 +161,7 @@ export default function Footer() {
               <a href="tel:+0039 02 760 003 66" title="Call us">
                 Tel: 0039 02 760 003 66
               </a>
-              {/* us a:nth-of-type(1) pt ancore */}
+              {/* use a:nth-of-type(1) pt ancore */}
               <a href="mailto:office@thread-affair.com" title="Email us">
                 office@thread-affair.com
               </a>
@@ -172,19 +172,19 @@ export default function Footer() {
             <ul>
               <li>
                 <a href="https://x.ro" title="Support">
-                  Support
+                  <i class="fa-solid fa-square-phone"></i>support
                 </a>
               </li>
 
               <li>
                 <a href="https://x.ro" title="Chat">
-                  Chat
+                  <i class="fa-solid fa-message"></i>chat
                 </a>
               </li>
 
               <li>
                 <a href="https://x.ro" title="Email">
-                  Email
+                  <i class="fa-solid fa-envelope"></i>email
                 </a>
               </li>
             </ul>
